@@ -75,14 +75,14 @@ function App() {
         value={name1}
         onChange={(e) => setName1(e.target.value)}
         data-testid="input1"
-        placeholder="First name"
+        placeholder="Enter first name"
       />
       <input
         type="text"
         value={name2}
         onChange={(e) => setName2(e.target.value)}
         data-testid="input2"
-        placeholder="Second name"
+        placeholder="Enter second name"
       />
       <button onClick={calculateRelationship} data-testid="calculate_relationship">
         Calculate Relationship Future
